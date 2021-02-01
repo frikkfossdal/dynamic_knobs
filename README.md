@@ -17,7 +17,7 @@ I'm thinking that my knobs will not require a lot of torque and current. so I do
 
 # 01022021
 
-Made good progress on both parts assembly and testing of my initial prototype. At this point in time I have a working prototype of the setup; I have a working implementation of FOC on a knob that consist of 3D printed parts. But it is a rough build centered around a 3D printed shaft. For my next move I want to incorporate some real parts; a precission steel shaft with a bearing for support and a polulu mounting hub. This should improve the knob feeling I'm longing for drastically. I've put together a parts list with supplier [here](https://docs.google.com/spreadsheets/d/1L6t7pLEjz3Pts3YDK6dYrAYIaIHmlakXx8iCuhCMrLw/edit?usp=sharing).
+Made good progress on both parts assembly and testing of initial prototype. At this point in time I have a working prototype of the setup; I have a working implementation of FOC on a knob that consist of 3D printed parts. But it is a rough build centered around a 3D printed shaft. For my next move I want to incorporate some real parts; a precission steel shaft with bearing for support and a polulu mounting hub. This should improve the knob feeling I'm longing for drastically. I've put together a parts list with supplier [here](https://docs.google.com/spreadsheets/d/1L6t7pLEjz3Pts3YDK6dYrAYIaIHmlakXx8iCuhCMrLw/edit?usp=sharing).
 
 I've updated the CAD model of the knob assembly to fit this new pattern. I will document this in more detail in future. Here is a quick screenshot from fusion:
 
