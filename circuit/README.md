@@ -1,6 +1,6 @@
 # Dev log for haptic circuit
 
-This is my first round of designing circuitry using PCB software AND(!) ordering a pcb from a vendor. Excitement is very high! Since I have a SAMD21 at hand (Arduino MKR1010) I will use this as the basis of my circuit. The gimbal motors I will be using to actuate things should'nt require too much heavy lifting, so for pushing current into the coils I will be using the L6234. I also need to figure out some kind of encoder connection. So, summary design requirements:
+This is my first round of designing circuitry using PCB software AND(!) ordering a pcb from a vendor. Excitement is very high! Since I have a SAMD21 at hand (Arduino MKR1010) I will use this as the basis of my circuit. The gimbal motors I will be using to actuate things should not require too much heavy lifting, so for pushing current into the coils I will be using the L6234. I also need to figure out some kind of encoder connection. So, summary design requirements:
 
 - SAMD21 circuitry (usb connections, bootloader upload, power, indicators)
 - L6234 circuitry
@@ -10,7 +10,7 @@ For design I will be using the Eagle integration in Fusion360. For best practice
 
 I will also attempt to use JLPCBs SMT assembly service, so componentes need to match their inventory (which seems to be quite abundant).
 
-These are the highlights of what I need to figure out
+These are highlights of what I need to figure out:
 
 - How to bootload? I think both CBA and Sparkfun has some good documentation about this. More will follow
 - How to control voltage? Sparkfun has alot of examples.
