@@ -1,5 +1,7 @@
 # Haptic Knob Interface
 
+**NOTE:** Documentation is currently havoc. I will return in future for cleanup.
+ 
 I want to have knobs that uses torque and position control to provide a diverse and muli-purpose interface. Essentially I want to be able to modulate torque based on selected application. Random Access Project gives a good summary in [this](https://www.youtube.com/watch?v=9Eh1p_rUQMA) video. I think interfaces like this also holds potential for machine control. I'm imagining an interface that could enable users to feel / interact in more tangible ways by reflecting stock or machine properties through torque. More reflections about this later. I want to implement!
 
 I have aquired some key ingrediences to get me started. I won't explain the details behind BLDC control and FOC, but here is a list of useful links and resources:
