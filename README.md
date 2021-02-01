@@ -1,6 +1,6 @@
 # Haptic Knob Interface
 
-I want to have knobs that uses torque and position control to provide a diverse and muli-purpose interface. Essentially I want to be able to modulate torque based on selected application. Random Access Project gives a good summary in [this](https://www.youtube.com/watch?v=9Eh1p_rUQMA) video. I think interfaces like this also holds potential for machine control and making practices. I'm imaganing an interface that could enable users to feel / interact in more tangible ways by reflecting stock or machine properties through torque. More reflections about this later. I want to implement!
+I want to have knobs that uses torque and position control to provide a diverse and muli-purpose interface. Essentially I want to be able to modulate torque based on selected application. Random Access Project gives a good summary in [this](https://www.youtube.com/watch?v=9Eh1p_rUQMA) video. I think interfaces like this also holds potential for machine control. I'm imagining an interface that could enable users to feel / interact in more tangible ways by reflecting stock or machine properties through torque. More reflections about this later. I want to implement!
 
 I have aquired some key ingrediences to get me started. I won't explain the details behind BLDC control and FOC, but here is a list of useful links and resources:
 
@@ -9,7 +9,7 @@ I have aquired some key ingrediences to get me started. I won't explain the deta
 - [Trinamic: look to datasheet](https://www.trinamic.com/products/integrated-circuits/details/tmc4671/)
 - [Book: Electric Motors And Drives](https://www.sciencedirect.com/book/9780080983325/electric-motors-and-drives)
 
-I'm thinking that my knobs will not require a lot of torque and current. hence I dont really need a superpowerful driver; for first round of implementation I will have a go with the [L6234](https://www.st.com/resource/en/datasheet/cd00000046.pdf), which should give me up to 5Amps to make my coil dance. These are nicely baked into the [simpleFOC](https://simplefoc.com/#simplefoc_shiled). As I get comfortable I might come back to this point and readjust course by making a more customized circuit board.
+I'm thinking that my knobs will not require a lot of torque and current. so I dont really need a superpowerful driver; for first round of implementation I will have a go with the [L6234](https://www.st.com/resource/en/datasheet/cd00000046.pdf) which should give me up to 5Amps to make my coils move. These are nicely baked into the [simpleFOC](https://simplefoc.com/#simplefoc_shiled). As I get comfortable I might come back to this point and readjust course by making a more customized circuit board.
 
 ## Log
 
