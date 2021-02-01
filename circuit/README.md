@@ -41,7 +41,7 @@ General plan going into this. Express server based on node.js has to do three th
 - Host web-client that includes charts.
 - Host web socket server that pushes data into web-client
 
-I will be using [smoothie charts] for visualization and socket.io for web sockets. Smoothie has a wonderful tool for pre-designing charts [here](http://smoothiecharts.org/builder/).
+I will be using [smoothie charts](http://smoothiecharts.org) for visualization and socket.io for web sockets. Smoothie has a wonderful tool for pre-designing charts [here](http://smoothiecharts.org/builder/).
 
 Implementation is semi-successful. I am parsing serial data on server side, and I am sending it to browser. On client side I am running smoothie charts. I need to spend more time on parsing before I send over socket. Out of time now. For now I will end on a chart full of random data points sent over socket.
 
