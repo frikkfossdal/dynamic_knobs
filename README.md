@@ -38,7 +38,6 @@ There is a small amount of overshoot, which I think is not a big problem at this
 
 Next step will be to print new parts and wait for shaft and mounting hub. Excitement!
 
-!!!! I just realised that I can't fit the 5mm shaft in my current motor setup. This is terrible. I'm now by the grace of wheater the supplier can update my order or not. If not we are going over to T-motors $$$$. Bad Frikk.
 
 # 25012021
 
